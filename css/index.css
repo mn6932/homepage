@@ -49,7 +49,11 @@ a,a:visited{
     right: 0;
 }
 .my_name{
-    font-size: 38px;
+    font-size: 42px;
+    font-weight: bold;
     color: white;
 }
 
+.middle p{
+    font: 50px;
+}
