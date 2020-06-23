@@ -1,0 +1,55 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #585858;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+a,a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+.bgimg{
+    background-image: url('../img/bgimg.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    z-index: 0;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+    }
+
+.bgimg::before{
+    content: "";
+    background:black;
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+}
+.my_name{
+    font-size: 38px;
+    color: white;
+}
+
